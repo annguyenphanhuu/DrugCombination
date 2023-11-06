@@ -1,7 +1,7 @@
-#DeepDDS: deep graph neural network with attention
+# DeepDDS: deep graph neural network with attention
 mechanism to predict synergistic drug combinations
 
-#Introduction
+# Introduction
 Động lực: Vấn đề đặt ra là có quá nhiều cách để kết hợp các loại thuốc, đến mức mà việc kiểm tra những kết hợp nào là hiệu quả thông qua thí nghiệm trong phòng thí nghiệm trở nên rất khó khăn. Do đó, việc sử dụng máy học để dự đoán các kết hợp thuốc đã trở thành một cách tiếp cận quan trọng.
 Việc phát hiện truyền thống về sự kết hợp thuốc chủ yếu dựa trên các thử nghiệm lâm sàng và chỉ giới hạn ở một số loại thuốc, tốn kém chi phí và không thực tế, không đáp ứng được nhu cầu cấp thiết về thuốc chống ung thư.
 
@@ -9,7 +9,7 @@ Một số nguồn dữ liệu:
 Độ nhạy của thuốc: CCLE (Bách khoa toàn thư về tế bào ung thư), GDSC (Độ nhạy của thuốc trong ung thư)
 Kết hợp thuốc: DrugCombDB
 
-#Materials and methods
+# Materials and methods
 Nguồn dữ liệu được sử dụng trong paper:
 - SMILES:  là một chuỗi ký tự được sử dụng để biểu diễn một cấu trúc hóa học của một hợp chất hữu cơ dưới dạng văn bản. Sẽ được chuyển đổi thành KG bằng RDKit
 - CCLE: Dữ liệu biểu hiện gene của các dòng tế bào ung thư sẽ được lấy ra từ đây
