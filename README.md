@@ -1,3 +1,4 @@
+Google Colab: https://colab.research.google.com/drive/1mz2vql0-BmsLJB1qzP5vmmRUZfmlhPal?usp=sharing
 # DeepDDS: deep graph neural network with attention
 mechanism to predict synergistic drug combinations
 
